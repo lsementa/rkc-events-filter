@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RKC Events</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h2>Filter RKC Events by Location</h2>
+
+    <div id="controls">
+        <input type="text" id="locationInput" placeholder="Enter location (e.g., RKC 101)">
+        <button onclick="handleSearch()">Filter</button>
+    </div>
+
+    <!-- Calendar link -->
+    <div id="calendarLink">
+        <a id="calendarAnchor" href="#" target="_blank" rel="noopener">View Calendar</a>
+    </div>
+
+    <!-- JSON output -->
+    <textarea id="jsonOutput" readonly placeholder="Filtered JSON will appear here..."></textarea>
+
+    <!-- Config and App scripts -->
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
